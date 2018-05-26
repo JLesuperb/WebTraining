@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bba79ac5-ac6a-417a-b64e-ffa1468115d2" name="Local - FTP" url="http://JLTraining">
+        <fileTransfer host="JLTraining" port="21" rootFolder="/training">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="11aec58d-a52a-4f09-81f3-d5e3fb07f36a" name="FTP - AwardSpace" url="http://training.groupesoficom.dx.am">
+        <fileTransfer host="training.groupesoficom.dx.am" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
